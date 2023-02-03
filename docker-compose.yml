@@ -1,0 +1,9 @@
+services:
+  app:
+    image: dev-env-img
+    container_name: dev-server
+    stdin_open: true
+    tty: true
+    command: bash
+    volumes:
+      - .:/root
